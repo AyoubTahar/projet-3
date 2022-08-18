@@ -6,6 +6,10 @@
 @import './mixins';
 @import './placeholders';
 
+body{
+  margin: 0;
+}
+
 @font-face {
   font-family: shirkhand;
   src: url(../fonts/Shrikhand-Regular.ttf);
@@ -15,20 +19,74 @@ h1{
   font-family: shirkhand ;
 }
 
-h2, p{
+h2, p, h3, li, div{
   font-family: 'Roboto', sans-serif;
 }
 
+
+
 .localisation {
+  background-color: $background-dark;
+  box-shadow: inset 0px 7px 10px -10px rgba(0,0,0,0.5);
 
     div{
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    @extend %flex-center;
+    padding: 18px;
     }
 
       p{
       margin: 0px;
       margin-left: 15px;
+      font-weight:bold;
       }
+}
+
+.description{
+  @extend %flex-column;
+  background-color: $background-light;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+        .btn{
+          @extend %btn;
+          box-shadow: $shadow;
+        }
+}
+
+.fonctionnement{
+  @extend %flex-column;
+
+}
+
+.fonctionnement__block{
+  @extend %flex-center;
+  background-color: $background-light;
+  border-radius: 12px;
+  box-shadow: $shadow;
+  margin-top: 20px;
+
+    p{
+      @extend %circle;
+    }
+
+    h3{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+}
+
+.restaurants{
+  background-color: $background-light;
+  @extend %flex-column;
+      img{
+        @extend %image;
+      }
+}
+
+.card{
+  @extend %card-style;
+}
+
+.new{
+  @extend %new-style;
 }
