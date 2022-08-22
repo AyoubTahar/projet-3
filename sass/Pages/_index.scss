@@ -1,0 +1,92 @@
+
+@import '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/placeholders';
+@import '../Components/button';
+@import '../Components/fonctionnement_block';
+@import '../Components/circle-number_fonctionnement';
+@import '../Components/card';
+@import '../Components/card-image';
+@import '../Components/card-new';
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+@font-face {
+    font-family: shirkhand;
+    src: url(../fonts/Shrikhand-Regular.ttf);
+}
+  
+  
+h1{
+    font-family: shirkhand ;
+}
+  
+  
+  
+.localisation {
+    background-color: $background-dark;
+    box-shadow: inset 0px 7px 10px -10px rgba(0,0,0,0.5);
+  
+      div{
+      @extend %flex-center;
+      padding: 18px;
+      }
+  
+        p{
+        margin: 0px;
+        margin-left: 15px;
+        font-weight:bold;
+        }
+}
+  
+.description{
+    @extend %flex-column;
+    background-color: $background-light;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+
+          .btn{
+            @extend %btn;
+          }
+}
+  
+.fonctionnement{
+    @extend %flex-column;
+  
+}
+  
+.fonctionnement__block{
+    @extend %fonctionnement_block;
+  
+}
+  
+.restaurants{
+    background-color: $background-light;
+    @extend %flex-column;
+
+        img{
+          @extend %image;
+        }
+}
+
+.circle{
+  @extend %circle;
+}
+
+.card{
+    @extend %card-style;
+}
+  
+.new{
+    @extend %new-style;
+}

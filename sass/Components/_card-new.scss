@@ -1,0 +1,16 @@
+@import '../Utils/variables';
+@import '../Utils/placeholders';
+@import '../Utils/mixins';
+
+
+%new-style{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    font-size: x-small;
+    background-color: $tertaire;
+    color: $nouveau;
+    border-radius: 3px ;
+    padding: 5px 8px;
+
+}

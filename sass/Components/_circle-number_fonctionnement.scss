@@ -1,0 +1,15 @@
+@import '../Utils/variables';
+@import '../Utils/placeholders';
+@import '../Utils/mixins';
+
+%circle{
+    @extend %flex-center;
+    border-radius: 100%;
+    background-color: $primaire;
+    color: white;
+    width: 23px;
+    height: 23px;
+    border: none;
+    margin-left: -45px;
+}
+

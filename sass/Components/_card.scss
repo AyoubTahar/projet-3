@@ -1,0 +1,15 @@
+@import '../Utils/variables';
+@import '../Utils/placeholders';
+@import '../Utils/mixins';
+
+%card-style{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 90%;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    @extend %flex-column;
+}
+
