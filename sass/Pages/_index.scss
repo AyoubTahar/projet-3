@@ -8,7 +8,8 @@
 @import '../Components/card';
 @import '../Components/card-image';
 @import '../Components/card-new';
-
+@import '../Layout/header';
+@import '../Layout/footer';
 
 
 * {
@@ -20,18 +21,16 @@ body{
     font-family: 'Roboto', sans-serif;
 }
   
+
 @font-face {
     font-family: shirkhand;
     src: url(../fonts/Shrikhand-Regular.ttf);
 }
-  
-  
-h1{
-    font-family: shirkhand ;
+
+.hide{
+  display: none;
 }
-  
-  
-  
+
 .localisation {
     background-color: $background-dark;
     box-shadow: inset 0px 7px 10px -10px rgba(0,0,0,0.5);
@@ -83,9 +82,20 @@ h1{
     background-color: $background-light;
     @extend %flex-column;
     margin-top: 65px;
+    padding-bottom: 50px;
+
+    h2{
+      margin-left: 20px;
+      margin-top: 45px;
+      margin-bottom: 10px;
+    }
 
         img{
           @extend %image;
+        }
+
+        .img2{
+          @extend %image2;
         }
 }
 

@@ -13,7 +13,7 @@
     box-shadow: $shadow;
 
     &:hover{
-        filter: brightness(110%);
+        filter: $brighter;
         box-shadow: $shadow-strong;
     }
 }

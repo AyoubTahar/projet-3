@@ -1,0 +1,21 @@
+@import '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/placeholders';
+
+
+header {
+    @extend %flex-center;
+
+    h1{
+        font-family: shirkhand ;
+        margin-left: auto; 
+        margin-right: 100px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    i{
+        margin-left: 15px;
+    }
+}
+
