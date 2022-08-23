@@ -1,0 +1,16 @@
+@import '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/placeholders';
+@import '../Components/button';
+
+.commander{
+    @extend %flex-column;
+    background-color: $background-dark;
+    padding-bottom: 60px;
+}
+
+.btn{
+    @extend %btn;
+    padding-left: 45px;
+    padding-right: 45px;
+}

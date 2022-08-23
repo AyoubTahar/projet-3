@@ -1,0 +1,15 @@
+@import '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/placeholders';
+@import '../Components/banner-resto';
+
+.img-resto {
+    @extend %img-resto
+}
+
+
+
+.nom-resto{
+   @extend %nom-resto
+}
+

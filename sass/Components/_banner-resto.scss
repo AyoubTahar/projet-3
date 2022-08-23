@@ -1,0 +1,43 @@
+@import '../Utils/variables';
+@import '../Utils/placeholders';
+@import '../Utils/mixins';
+
+%img-resto{
+    height: 270px ;
+    width: 100% ;
+    position: relative;
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 270px;
+    }
+}
+
+
+%nom-resto{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-family: shirkhand;
+    border-style: none;
+    border-radius: 35px 35px 0 0;
+    position: absolute;
+    top: 210px;
+    right: 0;
+    background-color: $background-dark;
+    width: 100%;
+    font-size: 18px;
+
+    h2{
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+
+    .fa-heart{
+        margin-right: 30px;
+        font-size: 28px;
+    }
+
+}
+

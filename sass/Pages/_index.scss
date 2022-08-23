@@ -2,13 +2,11 @@
 @import '../Utils/variables';
 @import '../Utils/mixins';
 @import '../Utils/placeholders';
-@import '../Components/button';
-@import '../Components/fonctionnement_block';
-@import '../Components/circle-number_fonctionnement';
-@import '../Components/card';
-@import '../Components/card-image';
-@import '../Components/card-new';
 @import '../Layout/header';
+@import '../Layout/localisation';
+@import '../Layout/description';
+@import '../Layout/fonctionnement';
+@import '../Layout/restaurants';
 @import '../Layout/footer';
 
 
@@ -27,84 +25,8 @@ body{
     src: url(../fonts/Shrikhand-Regular.ttf);
 }
 
+
+/* Pour cacher la fléche du header sur cette page*/
 .hide{
   display: none;
-}
-
-.localisation {
-    background-color: $background-dark;
-    box-shadow: inset 0px 7px 10px -10px rgba(0,0,0,0.5);
-  
-      div{
-      @extend %flex-center;
-      padding: 18px;
-      }
-  
-        p{
-        margin: 0px;
-        margin-left: 15px;
-        font-weight:bold;
-        }
-}
-  
-.description{
-    @extend %flex-column;
-    background-color: $background-light;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-
-          h2{
-            margin: 0;
-          }
-          .btn{
-            @extend %btn;
-          }
-}
-  
-.fonctionnement{
-    @extend %flex-column;
-
-    h2{
-      margin-left: 20px;
-      margin-top: 45px;
-      margin-bottom: 10px;
-    }
-  
-}
-  
-.fonctionnement__block{
-    @extend %fonctionnement_block;
-  
-}
-  
-.restaurants{
-    background-color: $background-light;
-    @extend %flex-column;
-    margin-top: 65px;
-    padding-bottom: 50px;
-
-    h2{
-      margin-left: 20px;
-      margin-top: 45px;
-      margin-bottom: 10px;
-    }
-
-        img{
-          @extend %image;
-        }
-
-        .img2{
-          @extend %image2;
-        }
-}
-
-
-
-.card{
-    @extend %card-style;
-}
-  
-.new{
-    @extend %new-style;
 }

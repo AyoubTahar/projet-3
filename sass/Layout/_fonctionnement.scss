@@ -1,0 +1,21 @@
+@import '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/placeholders';
+@import '../Components/fonctionnement_block';
+@import '../Components/circle-number_fonctionnement';
+
+.fonctionnement{
+    @extend %flex-column;
+
+    h2{
+      margin-left: 20px;
+      margin-top: 45px;
+      margin-bottom: 10px;
+    }
+  
+}
+  
+.fonctionnement__block{
+    @extend %fonctionnement_block;
+  
+}

@@ -5,11 +5,12 @@
 
 header {
     @extend %flex-center;
+    align-items: flex-start;
 
     h1{
         font-family: shirkhand ;
         margin-left: auto; 
-        margin-right: 100px;
+        margin-right: auto;
         margin-top: 15px;
         margin-bottom: 10px;
     }

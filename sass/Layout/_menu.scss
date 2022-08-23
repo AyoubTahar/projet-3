@@ -1,0 +1,35 @@
+@import '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/placeholders';
+@import '../Components/menu-block';
+.menu{
+    background-color: $background-dark;
+    padding-top: 20px;
+    padding-bottom:  20px ;
+}
+
+
+
+.menu h2{
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+    position: relative;
+    /*décoration des titres du menu*/
+    &::before{
+        content : "";
+        position: absolute;
+        left    : 0;
+        bottom  : -6px;
+        height  : 1px;
+        width   : 40px;
+        border-bottom:3px solid;
+        border-bottom-color:$tertaire ;
+    }
+}
+
+.menu-block{
+    @extend %menu-block;
+}
+

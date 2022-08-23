@@ -1,0 +1,35 @@
+@import '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/placeholders';
+@import '../Components/card';
+@import '../Components/card-image';
+@import '../Components/card-new';
+
+.restaurants{
+    background-color: $background-light;
+    @extend %flex-column;
+    margin-top: 65px;
+    padding-bottom: 50px;
+
+    h2{
+      margin-left: 20px;
+      margin-top: 45px;
+      margin-bottom: 10px;
+    }
+
+    img{
+          @extend %image;
+    }
+
+    .img2{
+          @extend %image2;
+    }
+}
+
+.card{
+    @extend %card-style;
+}
+  
+.new{
+    @extend %new-style;
+}
