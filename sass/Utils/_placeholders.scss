@@ -10,7 +10,7 @@
     flex-direction: column;
 }
 
-%animation-delay{
+%animation-delay-menu{
     @for $i from 2 to 6 {
         &:nth-child(#{$i}){
             animation-delay: $i* 0.5s;

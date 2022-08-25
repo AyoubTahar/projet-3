@@ -1,0 +1,20 @@
+@import '../Utils/variables';
+@import '../Utils/placeholders';
+@import '../Utils/mixins';
+
+
+%slide_menu-block{
+    height: 65px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $tertaire;
+    margin-right: -120px;
+    transition: margin 0.5s;
+
+    i{
+        @extend %check;
+    }
+
+}

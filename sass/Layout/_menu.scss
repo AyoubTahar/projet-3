@@ -2,6 +2,9 @@
 @import '../Utils/mixins';
 @import '../Utils/placeholders';
 @import '../Components/menu-block';
+@import '../Components/check';
+@import '../Components/slide_menu-block';
+
 .menu{
     background-color: $background-dark;
     padding-top: 20px;
@@ -29,7 +32,20 @@
     }
 }
 
+.menu-container{
+    @extend %flex-center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.text-container{
+    @extend %text-container;
+}
 .menu-block{
     @extend %menu-block;
 }
 
+.add{
+    @extend %slide_menu-block;
+}

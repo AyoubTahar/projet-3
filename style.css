@@ -1,11 +1,11 @@
 @charset "UTF-8";
-.fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
+.menu-container, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -28,13 +28,13 @@
   -webkit-animation-delay: 2.5s;
 }
 
-.fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
+.menu-container, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -71,13 +71,13 @@ header i {
   margin-left: 15px;
 }
 
-.fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
+.menu-container, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -113,13 +113,13 @@ header i {
   font-weight: bold;
 }
 
-.fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -142,13 +142,13 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
-.fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -196,13 +196,13 @@ header i {
 .description h2 {
   margin: 0;
 }
-.fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -225,13 +225,13 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
-.fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -284,13 +284,13 @@ header i {
   color: #9359DC;
 }
 
-.fonctionnement__block .circle, header, .localisation div, .fonctionnement__block {
+.menu-container, .fonctionnement__block .circle, header, .localisation div, .fonctionnement__block {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .fonctionnement, .description {
+.commander, .restaurants, .card, .fonctionnement, .description {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -329,13 +329,13 @@ header i {
   margin-bottom: 10px;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .description, .fonctionnement {
+.commander, .restaurants, .card, .description, .fonctionnement {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -358,13 +358,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .card, .description, .fonctionnement {
+.commander, .restaurants, .card, .description, .fonctionnement {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -421,13 +421,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   box-shadow: 0px 6px 50px -12px rgba(0, 0, 0, 0.8);
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .description, .fonctionnement, .card {
+.commander, .restaurants, .description, .fonctionnement, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -466,13 +466,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   object-position: 0px 60%;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .description, .fonctionnement, .card {
+.commander, .restaurants, .description, .fonctionnement, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -507,13 +507,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   padding: 6px 12px;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .restaurants, .description, .fonctionnement, .card {
+.commander, .restaurants, .description, .fonctionnement, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -555,13 +555,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   margin-top: 45px;
   margin-bottom: 10px;
 }
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -637,13 +637,13 @@ body {
   display: none;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -666,13 +666,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -711,13 +711,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   box-shadow: 0px 6px 50px -12px rgba(0, 0, 0, 0.8);
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -754,13 +754,13 @@ header i {
   margin-left: 15px;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -818,13 +818,13 @@ ul li i {
   padding-right: 15px;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -847,13 +847,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -910,13 +910,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   font-size: 28px;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -939,13 +939,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .menu-block, .description, .fonctionnement, .restaurants, .card {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -973,31 +973,56 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   border-radius: 15px;
   width: 95%;
   height: 65px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 6px 23px -12px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  white-space: nowrap;
   margin-top: 10px;
   margin-bottom: 15px;
   -webkit-animation: slidein 2s forwards;
   animation: slidein 2s forwards;
   opacity: 0;
 }
-.menu-block h3 {
+.menu-block:hover .add {
+  margin-right: 0;
+  transition-timing-function: ease;
+}
+.menu-block:hover i {
+  transform: rotate(360deg);
+  transition-duration: 0.5s;
+}
+.menu-block .prix {
+  margin-top: 38px;
+  font-weight: bold;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.text-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.text-container h3 {
   margin-left: 15px;
   margin-bottom: 0;
   font-size: medium;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
 }
-.menu-block p {
-  display: flex;
-  justify-content: space-between;
+.text-container p {
   margin-left: 15px;
   margin-bottom: 0;
   margin-top: 4px;
-  font-size: 15px;
-}
-.menu-block p span {
-  margin-right: 20px;
-  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 @-webkit-keyframes slidein {
@@ -1021,6 +1046,82 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
     translate: translateY(0px);
     opacity: 1;
   }
+}
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commander, .description, .fonctionnement, .restaurants, .card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
+.add i {
+  border-radius: 50%;
+  background-color: white;
+  color: #99e2d0;
+  padding: 5px;
+  border: none;
+}
+
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commander, .description, .fonctionnement, .restaurants, .card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
+.add {
+  height: 65px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #99e2d0;
+  margin-right: -120px;
+  transition: margin 0.5s;
 }
 .menu {
   background-color: #f1eeee;
@@ -1047,13 +1148,18 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   border-bottom-color: #99e2d0;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container {
+  margin: 0;
+  padding: 0;
+}
+
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .description, .fonctionnement, .restaurants, .card, .menu-block {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -1076,13 +1182,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .description, .fonctionnement, .restaurants, .card, .menu-block {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -1139,13 +1245,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   font-size: 28px;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .description, .fonctionnement, .restaurants, .card, .menu-block {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -1168,13 +1274,13 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.commander, .description, .fonctionnement, .restaurants, .card, .menu-block {
+.commander, .description, .fonctionnement, .restaurants, .card {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;

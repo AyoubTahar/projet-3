@@ -8,37 +8,70 @@
     border-radius: 15px;
     width: 95%;
     height: 65px;
-    @extend %flex-column;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     box-shadow: $shadow;
+    overflow: hidden;
+    white-space: nowrap;
     margin-top: 10px;
     margin-bottom: 15px;
     -webkit-animation: slidein 2s forwards;
     animation: slidein 2s forwards;
-    @extend %animation-delay;
+    @extend %animation-delay-menu;
     opacity: 0;
 
-    h3{
-        margin-left: 15px;
-        margin-bottom: 0;
-        font-size: medium;
+    &:hover .add{
+        margin-right: 0;
+        transition-timing-function: ease ;
     }
 
-    p{
-        display: flex;
-        justify-content: space-between;
-        margin-left: 15px;
-        margin-bottom: 0;
-        margin-top: 4px;
-        font-size: 15px;
-
-        span{
-            margin-right: 20px;
-            font-weight: bold;
-        }
+    &:hover i{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
     }
+
+    .prix{
+        margin-top: 38px;
+        font-weight: bold;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+
+
 }
+
+%text-container{
+    
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+        h3{
+            margin-left: 15px;
+            margin-bottom: 0;
+            font-size: medium;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+        }
+    
+        p{
+    
+            margin-left: 15px;
+            margin-bottom: 0;
+            margin-top: 4px;
+            font-size: 14px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+    
+}
+
 
 @-webkit-keyframes slidein{
     0%{
@@ -62,3 +95,4 @@
         opacity: 1;
     }
 }
+
