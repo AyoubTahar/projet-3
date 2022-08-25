@@ -9,3 +9,12 @@
     justify-content: flex-start;
     flex-direction: column;
 }
+
+%animation-delay{
+    @for $i from 2 to 6 {
+        &:nth-child(#{$i}){
+            animation-delay: $i* 0.5s;
+            -webkit-animation-delay: $i* 0.5s;
+        }
+    }
+}

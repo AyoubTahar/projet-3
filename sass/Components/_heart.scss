@@ -1,0 +1,15 @@
+@import '../Utils/variables';
+@import '../Utils/placeholders';
+@import '../Utils/mixins';
+
+
+.card .fa-heart{
+    cursor: pointer;
+    transition: 400ms;
+
+    &:hover{
+        transform: scale(1.05);
+        background-color: $heart-end;
+    }
+}
+

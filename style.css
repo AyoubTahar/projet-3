@@ -11,6 +11,23 @@
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
   display: flex;
   justify-content: center;
@@ -21,6 +38,23 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 header {
@@ -49,6 +83,23 @@ header i {
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .localisation {
   background-color: #f1eeee;
   box-shadow: inset 0px 7px 10px -10px rgba(0, 0, 0, 0.5);
@@ -74,6 +125,23 @@ header i {
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
@@ -86,6 +154,23 @@ header i {
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .btn, .description .btn {
   border-style: hidden;
   background: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
@@ -95,6 +180,7 @@ header i {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 6px 23px -12px rgba(0, 0, 0, 0.8);
+  transition: all 300ms;
 }
 .btn:hover {
   filter: brightness(110%);
@@ -122,6 +208,23 @@ header i {
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
@@ -134,6 +237,23 @@ header i {
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .fonctionnement__block {
   background-color: rgba(243, 243, 243, 0.937254902);
   border-radius: 25px;
@@ -144,6 +264,7 @@ header i {
   margin-left: auto;
   font-size: 14px;
   margin-top: 25px;
+  transition: all 300ms;
 }
 .fonctionnement__block h3 {
   width: 225px;
@@ -175,6 +296,23 @@ header i {
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .fonctionnement__block .circle {
   border-radius: 100%;
   background-color: #9359DC;
@@ -203,6 +341,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
@@ -213,6 +368,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 .card {
@@ -226,6 +398,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   box-shadow: 0px 6px 23px -12px rgba(0, 0, 0, 0.8);
   margin-top: 10px;
   margin-bottom: 10px;
+  transition: all 300ms;
 }
 .card h3 {
   margin: 10px 10px 0 10px;
@@ -235,6 +408,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
 }
 .card h3 .fa-heart {
   font-size: 28px;
+  background-color: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
 }
 .card p {
   margin: 0 10px 15px 10px;
@@ -257,6 +431,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 .restaurants img {
@@ -287,6 +478,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .new {
   position: absolute;
   top: 15px;
@@ -297,6 +505,44 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   color: #22856c;
   border-radius: 3px;
   padding: 6px 12px;
+}
+
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commander, .menu-block, .restaurants, .description, .fonctionnement, .card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
+.card .fa-heart {
+  cursor: pointer;
+  transition: 400ms;
+}
+.card .fa-heart:hover {
+  transform: scale(1.05);
+  background-color: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
 }
 
 .restaurants {
@@ -319,6 +565,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 @font-face {
@@ -344,6 +607,10 @@ ul {
   list-style: none;
   margin: 0 0 0 20px;
   padding: 0 0 20px 0;
+}
+ul a {
+  text-decoration: none;
+  color: white;
 }
 ul li {
   padding: 5px 0 5px 0;
@@ -382,6 +649,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
@@ -394,6 +678,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .btn, .description .btn {
   border-style: hidden;
   background: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
@@ -403,6 +704,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 6px 23px -12px rgba(0, 0, 0, 0.8);
+  transition: all 300ms;
 }
 .btn:hover {
   filter: brightness(110%);
@@ -419,6 +721,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 header {
@@ -447,6 +766,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 @font-face {
   font-family: shirkhand;
   src: url(../fonts/Shrikhand-Regular.ttf);
@@ -471,6 +807,10 @@ ul {
   margin: 0 0 0 20px;
   padding: 0 0 20px 0;
 }
+ul a {
+  text-decoration: none;
+  color: white;
+}
 ul li {
   padding: 5px 0 5px 0;
 }
@@ -490,6 +830,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
@@ -500,6 +857,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 .img-resto {
@@ -548,6 +922,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
@@ -560,6 +951,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .menu-block {
   background-color: white;
   border-radius: 15px;
@@ -570,6 +978,9 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   box-shadow: 0px 6px 23px -12px rgba(0, 0, 0, 0.8);
   margin-top: 10px;
   margin-bottom: 15px;
+  -webkit-animation: slidein 2s forwards;
+  animation: slidein 2s forwards;
+  opacity: 0;
 }
 .menu-block h3 {
   margin-left: 15px;
@@ -589,6 +1000,28 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   font-weight: bold;
 }
 
+@-webkit-keyframes slidein {
+  0% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    translate: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slidein {
+  0% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    translate: translateY(0px);
+    opacity: 1;
+  }
+}
 .menu {
   background-color: #f1eeee;
   padding-top: 20px;
@@ -626,6 +1059,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
@@ -636,6 +1086,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 .img-resto {
@@ -684,6 +1151,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
@@ -696,6 +1180,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   flex-direction: column;
 }
 
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
 .btn, .description .btn {
   border-style: hidden;
   background: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
@@ -705,6 +1206,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 6px 23px -12px rgba(0, 0, 0, 0.8);
+  transition: all 300ms;
 }
 .btn:hover {
   filter: brightness(110%);
