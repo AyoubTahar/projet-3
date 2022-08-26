@@ -8,3 +8,100 @@
 @import '../Layout/menu';
 @import '../Layout/top-page-resto';
 @import '../Layout/commande';
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+   
+    .img-resto{
+        height: 350px;
+        object-position: 0 -120px;
+    }
+   
+   
+    .nom-resto{
+        justify-content: center;
+        top: 305px;
+
+        h2 {
+            margin-left: 0;
+            font-size: 40px;
+        }
+        .fa-heart{
+            margin-left: 60px;
+            font-size: 40px;
+        }
+    }
+
+    .menu{
+        padding-top: 60px;
+
+        h2{
+            font-size: 25px;
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 45px;
+
+            &::before{
+                width: 60px;
+                left:auto;
+                right: auto;
+            }
+       
+         }
+    }
+
+    .menu-block{
+        height: 160px;
+
+        .text-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            h3{
+                margin-top: 0;
+                font-size: 28px;
+            }
+
+            p{
+                margin-top: 0;
+                font-size: 23px;
+            }
+        }
+
+        .prix{
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 25px;
+        }
+
+        .add{
+            width: 250px;
+            margin-right: -250px ;
+
+            i{
+                font-size: 40px;
+            }
+        }
+
+
+    }
+
+    .btn{
+        font-size: 35px;
+    }
+
+    footer{
+        
+
+        h2{
+            font-size: 45px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        ul{
+            font-size: 25px;
+        }
+    }
+}
