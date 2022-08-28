@@ -543,7 +543,7 @@ span .fa-heart {
   position: absolute;
   color: transparent;
   background-image: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
-  transition: 2s ease-in;
+  transition: 0.5s ease-in;
   right: 10px;
   top: 194px;
 }
@@ -662,7 +662,7 @@ ul li i {
   height: 100%;
   position: absolute;
   background-color: white;
-  z-index: 3;
+  z-index: -1;
   top: 0;
   bottom: 0;
   opacity: 0;
@@ -672,9 +672,11 @@ ul li i {
 @keyframes loading {
   0% {
     opacity: 0.5;
+    z-index: 3;
   }
   100% {
     opacity: 0.5;
+    z-index: 3;
   }
 }
 .spinner {
