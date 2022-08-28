@@ -541,7 +541,7 @@ header i {
   -webkit-background-clip: text;
   position: absolute;
   right: 10px;
-  top: 250px;
+  top: 200px;
 }
 
 span .fa-heart {
@@ -692,6 +692,9 @@ body {
   }
   .card .img2 {
     height: 260px;
+  }
+  .card .fa-heart {
+    top: 280px;
   }
   .new {
     font-size: 18px;
@@ -1468,6 +1471,9 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px 1fr 1fr;
+  }
+  .card .fa-heart {
+    top: 250px;
   }
   .restaurants h2 {
     grid-row-start: 1;
