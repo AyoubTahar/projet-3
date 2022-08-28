@@ -4,12 +4,25 @@
 
 
 .card .fa-heart{
-    cursor: pointer;
     transition: 400ms;
+    -webkit-background-clip: text;
+    position: absolute;
+    right: 10px;
+    top: 250px;
+
+
+}
+
+span .fa-heart{
+    opacity: 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: $background-gradient;
+    transition: 2s;
 
     &:hover{
-        transform: scale(1.05);
-        background-color: $heart-end;
+        opacity: 1;
     }
 }
 
