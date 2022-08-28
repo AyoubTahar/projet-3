@@ -3,26 +3,20 @@
 @import '../Utils/mixins';
 
 
-.card .fa-heart{
-    transition: 400ms;
-    -webkit-background-clip: text;
-    position: absolute;
-    right: 10px;
-    top: 200px;
-
-
-}
-
 span .fa-heart{
     opacity: 0;
     background-clip: text;
     -webkit-background-clip: text;
+    position: absolute;
     color: transparent;
     background-image: $background-gradient;
-    transition: 2s;
+    transition: 2s ease-in;
+    right: 10px;
+    top: 194px;
 
     &:hover{
         opacity: 1;
+        transform: scale(110%);
     }
 }
 

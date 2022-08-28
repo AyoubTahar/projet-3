@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.menu-container, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
+.menu-container, .loading, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@
   -webkit-animation-delay: 2.5s;
 }
 
-.menu-container, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
+.menu-container, .loading, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,7 @@ header i {
   font-size: 15px;
 }
 
-.menu-container, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
+.menu-container, .loading, .fonctionnement__block .circle, .fonctionnement__block, .localisation div, header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,7 +113,7 @@ header i {
   font-weight: bold;
 }
 
-.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .loading, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
-.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .loading, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,7 +196,7 @@ header i {
 .description h2 {
   margin: 0;
 }
-.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .loading, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,7 +225,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
-.menu-container, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
+.menu-container, .loading, .fonctionnement__block .circle, .fonctionnement__block, header, .localisation div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,7 +284,7 @@ header i {
   color: #9359DC;
 }
 
-.menu-container, .fonctionnement__block .circle, header, .localisation div, .fonctionnement__block {
+.menu-container, .loading, .fonctionnement__block .circle, header, .localisation div, .fonctionnement__block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -329,7 +329,7 @@ header i {
   margin-bottom: 10px;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, .loading, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,7 +358,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, .loading, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -421,7 +421,7 @@ header i {
   box-shadow: 0px 6px 50px -12px rgba(0, 0, 0, 0.8);
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, .loading, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -466,7 +466,7 @@ header i {
   object-position: 0px 60%;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, .loading, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -507,7 +507,7 @@ header i {
   padding: 6px 12px;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, .loading, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -536,24 +536,20 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
-.card .fa-heart {
-  transition: 400ms;
-  -webkit-background-clip: text;
-  position: absolute;
-  right: 10px;
-  top: 200px;
-}
-
 span .fa-heart {
   opacity: 0;
   background-clip: text;
   -webkit-background-clip: text;
+  position: absolute;
   color: transparent;
   background-image: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
-  transition: 2s;
+  transition: 2s ease-in;
+  right: 10px;
+  top: 194px;
 }
 span .fa-heart:hover {
   opacity: 1;
+  transform: scale(110%);
 }
 
 .restaurants {
@@ -566,7 +562,7 @@ span .fa-heart:hover {
   margin-top: 45px;
   margin-bottom: 10px;
 }
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, .loading, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -630,6 +626,101 @@ ul li i {
   padding-right: 15px;
 }
 
+.menu-container, .loading, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commander, .description, .fonctionnement, .restaurants, .card {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.menu-block:nth-child(2) {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.menu-block:nth-child(3) {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+.menu-block:nth-child(4) {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+.menu-block:nth-child(5) {
+  animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
+}
+
+.loading {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  max-height: 1024px;
+  position: absolute;
+  background-color: white;
+  z-index: 3;
+  top: 0;
+  opacity: 0;
+  animation: loading 3s;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+.spinner {
+  margin: 100px auto 0;
+  width: 100%;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 50px;
+  height: 50px;
+  background-color: #9359DC;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 3s infinite ease-in-out both;
+  animation: sk-bouncedelay 3s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -654,6 +745,9 @@ body {
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .localisation {
     font-size: 24px;
+  }
+  span .fa-heart {
+    top: 273px;
   }
   .description br {
     display: none;
@@ -693,14 +787,11 @@ body {
   .card .img2 {
     height: 260px;
   }
-  .card .fa-heart {
-    top: 280px;
-  }
   .new {
     font-size: 18px;
   }
 }
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -729,7 +820,7 @@ body {
   -webkit-animation-delay: 2.5s;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -774,7 +865,7 @@ body {
   box-shadow: 0px 6px 50px -12px rgba(0, 0, 0, 0.8);
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -817,7 +908,7 @@ header i {
   font-size: 15px;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -881,7 +972,7 @@ ul li i {
   padding-right: 15px;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -910,7 +1001,7 @@ ul li i {
   -webkit-animation-delay: 2.5s;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -973,7 +1064,7 @@ ul li i {
   font-size: 28px;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1002,7 +1093,7 @@ ul li i {
   -webkit-animation-delay: 2.5s;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1110,7 +1201,7 @@ ul li i {
     opacity: 1;
   }
 }
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1147,7 +1238,7 @@ ul li i {
   border: none;
 }
 
-.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle {
+.menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1216,7 +1307,7 @@ ul li i {
   padding: 0;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1245,7 +1336,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1308,7 +1399,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   font-size: 28px;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1337,7 +1428,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
-header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .menu-container {
+header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading, .menu-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1472,8 +1563,8 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 80px 1fr 1fr;
   }
-  .card .fa-heart {
-    top: 250px;
+  span .fa-heart {
+    top: 244px;
   }
   .restaurants h2 {
     grid-row-start: 1;

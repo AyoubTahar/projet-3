@@ -8,7 +8,7 @@
 @import '../Layout/fonctionnement';
 @import '../Layout/restaurants';
 @import '../Layout/footer';
-
+@import "../Components/loading";
 
 * {
     box-sizing: border-box;
@@ -40,6 +40,10 @@ body{
     font-size: 24px;
   }
 
+  span .fa-heart{
+    top:273px;
+}
+
   .description{
     
     br{
@@ -60,6 +64,7 @@ body{
   height: 100px;
   font-size: 21px;
   white-space: nowrap;
+
   .circle{
     margin-left: -210px;
     width: 35px;
@@ -90,12 +95,11 @@ body{
     height: 260px;
   }
  }
-.card .fa-heart{
-  top: 280px;
-}
+
  .new{
   font-size: 18px;
  }
+
 
   }
 

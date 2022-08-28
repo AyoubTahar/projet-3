@@ -17,6 +17,7 @@
         object-position: 0 -120px;
     }
    
+
    
     .nom-resto{
         justify-content: center;
@@ -117,9 +118,10 @@
 
     }
 
-    .card .fa-heart{
-        top: 250px;
+    span .fa-heart{
+        top:244px;
     }
+    
     .restaurants h2{
       grid-row-start: 1;
       grid-column-start: 1 ;

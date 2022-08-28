@@ -1,0 +1,74 @@
+@import '../Utils/variables';
+@import '../Utils/placeholders';
+@import '../Utils/mixins';
+
+
+.loading{
+    display: flex;
+    @extend %flex-center;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    max-height: 1024px;
+    position: absolute;
+    background-color: white;
+    z-index: 3;
+    top: 0;
+    opacity: 0;
+    animation: loading 3s ;
+
+}
+
+@keyframes loading{
+    0%{
+        opacity: 0.5;
+        
+    }
+
+    100%{
+        opacity: 0.5;
+    }
+}
+
+.spinner {
+    margin: 100px auto 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .spinner > div {
+    width: 50px;
+    height: 50px;
+    background-color: $primaire;
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 3s infinite ease-in-out both;
+    animation: sk-bouncedelay 3s infinite ease-in-out both;
+  }
+  
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }
+  
