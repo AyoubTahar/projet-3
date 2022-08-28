@@ -626,6 +626,9 @@ ul li i {
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @font-face {
@@ -1444,6 +1447,69 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   }
   footer ul {
     font-size: 25px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .description br {
+    display: none;
+  }
+  .restaurants {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+  }
+  .restaurants h2 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+  .restaurants img {
+    height: 230px;
+    object-position: 0 86%;
+  }
+  .restaurants .img2 {
+    height: 230px;
+  }
+  .card {
+    height: 300px;
+  }
+  .img-resto {
+    height: 350px;
+  }
+  .fonctionnement {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .fonctionnement h2 {
+    grid-column: 1/span 3;
+  }
+  .fonctionnement__block {
+    align-self: center;
+    justify-self: center;
+  }
+  .nom-resto {
+    top: 290px;
+    align-content: flex-end;
+  }
+  .nom-resto h2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+  }
+  .btn {
+    font-size: 23px;
+  }
+  footer h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  footer ul {
+    font-size: 18px;
   }
 }
 
