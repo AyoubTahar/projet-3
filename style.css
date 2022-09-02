@@ -1059,7 +1059,7 @@ ul li i {
 }
 .nom-resto h2 {
   margin-left: 15px;
-  margin-bottom: 0;
+  margin-bottom: 45px;
 }
 .nom-resto .fa-heart {
   margin-right: 30px;
@@ -1394,7 +1394,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
 }
 .nom-resto h2 {
   margin-left: 15px;
-  margin-bottom: 0;
+  margin-bottom: 45px;
 }
 .nom-resto .fa-heart {
   margin-right: 30px;
@@ -1509,7 +1509,6 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
     font-size: 25px;
     text-align: center;
     margin-left: 0;
-    margin-bottom: 45px;
   }
   .menu h2::before {
     width: 60px;
@@ -1584,7 +1583,10 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
     height: 300px;
   }
   .img-resto {
-    height: 350px;
+    height: 540px;
+  }
+  .img-resto img {
+    object-position: 0 85%;
   }
   .fonctionnement {
     display: grid;
@@ -1598,17 +1600,23 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
     justify-self: center;
   }
   .nom-resto {
-    top: 290px;
+    top: 465px;
     align-content: flex-end;
   }
   .nom-resto h2 {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
+    font-size: 32px;
   }
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
+  }
+  .menu {
+    padding-bottom: 40px;
+    padding-top: 60px;
   }
   .btn {
     font-size: 23px;
