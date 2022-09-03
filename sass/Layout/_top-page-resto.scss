@@ -3,6 +3,8 @@
 @import '../Utils/placeholders';
 @import '../Components/banner-resto';
 
+/*Bannière sur les pages des restaurants */
+
 .img-resto {
     @extend %img-resto
 }

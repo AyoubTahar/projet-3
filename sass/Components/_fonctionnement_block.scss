@@ -2,6 +2,8 @@
 @import '../Utils/placeholders';
 @import '../Utils/mixins';
 
+/*Mis en forme block fonctionnement de l'index */
+
 %fonctionnement_block{
     @extend %flex-center;
     background-color: $background-light;

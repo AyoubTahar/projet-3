@@ -9,7 +9,7 @@
 @import '../Layout/top-page-resto';
 @import '../Layout/commande';
 
-
+/*Responsive tablette des pages des restaurants*/
 @media screen and (min-width: 768px) and (max-width:992px) {
    
     .img-resto{
@@ -106,6 +106,8 @@
         }
     }
 }
+
+/*responsive desktop index/pages restaurants */
 
 @media screen and (min-width: 992px) {
 

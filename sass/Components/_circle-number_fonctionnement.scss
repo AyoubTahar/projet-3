@@ -2,6 +2,8 @@
 @import '../Utils/placeholders';
 @import '../Utils/mixins';
 
+/* Il s'agit des numéro des block dans la partie fonctionnement de l'index */
+
 %circle{
     @extend %flex-center;
     border-radius: 100%;

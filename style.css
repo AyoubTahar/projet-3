@@ -100,6 +100,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/*Partie localisation page index */
 .localisation {
   background-color: #f1eeee;
   box-shadow: inset 0px 7px 10px -10px rgba(0, 0, 0, 0.5);
@@ -171,6 +172,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/*Caractérestique des boutons violet */
 .btn, .description .btn {
   border-style: hidden;
   background: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
@@ -187,6 +189,7 @@ header i {
   box-shadow: 0px 6px 50px -12px rgba(0, 0, 0, 0.8);
 }
 
+/*Partie description page index */
 .description {
   background-color: rgba(243, 243, 243, 0.937254902);
   padding-top: 40px;
@@ -254,6 +257,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/*Mis en forme block fonctionnement de l'index */
 .fonctionnement__block {
   background-color: rgba(243, 243, 243, 0.937254902);
   border-radius: 25px;
@@ -313,6 +317,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/* Il s'agit des numéro des block dans la partie fonctionnement de l'index */
 .fonctionnement__block .circle {
   border-radius: 100%;
   background-color: #9359DC;
@@ -323,6 +328,7 @@ header i {
   margin-left: -45px;
 }
 
+/*Partie fonctionnement page index */
 .fonctionnement h2 {
   margin-left: 20px;
   margin-top: 45px;
@@ -387,6 +393,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/* Mise en forme des restaurants sur la page index */
 .card {
   position: relative;
   background-color: white;
@@ -408,7 +415,6 @@ header i {
 }
 .card h3 .fa-heart {
   font-size: 28px;
-  background-color: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
 }
 .card p {
   margin: 0 10px 15px 10px;
@@ -450,6 +456,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/*position et format des images des restaurants sur la page index */
 .restaurants img {
   width: 100%;
   height: 180px;
@@ -495,6 +502,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/* position et taille du "nouveau" sur les images des resturants de l'index */
 .new {
   position: absolute;
   top: 15px;
@@ -536,6 +544,7 @@ header i {
   -webkit-animation-delay: 2.5s;
 }
 
+/* position du coeur et son animation */
 span .fa-heart {
   opacity: 0;
   background-clip: text;
@@ -552,6 +561,7 @@ span .fa-heart:hover {
   transform: scale(110%);
 }
 
+/*Partie restaurant page index */
 .restaurants {
   background-color: rgba(243, 243, 243, 0.937254902);
   margin-top: 65px;
@@ -655,6 +665,7 @@ ul li i {
   -webkit-animation-delay: 2.5s;
 }
 
+/* effet de chargement de la page index*/
 .loading {
   display: flex;
   width: 100%;
@@ -739,11 +750,12 @@ body {
   font-family: shirkhand;
   src: url(../fonts/Shrikhand-Regular.ttf);
 }
-/* Pour cacher la fléche du header sur cette page*/
+/* Pour cacher la flèche du header sur l'index*/
 .hide {
   display: none;
 }
 
+/*Responsive tablette de l'index*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .localisation {
     font-size: 24px;
@@ -851,6 +863,7 @@ body {
   -webkit-animation-delay: 2.5s;
 }
 
+/*Caractérestique des boutons violet */
 .btn, .description .btn {
   border-style: hidden;
   background: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
@@ -1032,6 +1045,7 @@ ul li i {
   -webkit-animation-delay: 2.5s;
 }
 
+/*Bannière sur les pages des resturants */
 .img-resto {
   height: 270px;
   width: 100%;
@@ -1066,6 +1080,7 @@ ul li i {
   font-size: 28px;
 }
 
+/*Bannière sur les pages des restaurants */
 .menu-container, header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading {
   display: flex;
   justify-content: center;
@@ -1124,6 +1139,7 @@ ul li i {
   -webkit-animation-delay: 2.5s;
 }
 
+/* Aspect des menus des resturants et animation */
 .menu-block {
   background-color: white;
   border-radius: 15px;
@@ -1232,6 +1248,7 @@ ul li i {
   -webkit-animation-delay: 2.5s;
 }
 
+/* mis en forme du logo qui apparait lors de l'animation des menus */
 .add i {
   border-radius: 50%;
   background-color: white;
@@ -1269,6 +1286,7 @@ ul li i {
   -webkit-animation-delay: 2.5s;
 }
 
+/*Aspect  de l'animation lors du survol des différents éléments du menu */
 .add {
   height: 100%;
   width: 120px;
@@ -1279,6 +1297,7 @@ ul li i {
   margin-right: -120px;
   transition: margin 0.5s;
 }
+/*Partie menu page restaurant */
 .menu {
   background-color: #f1eeee;
   padding-top: 20px;
@@ -1367,6 +1386,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
+/*Bannière sur les pages des resturants */
 .img-resto {
   height: 270px;
   width: 100%;
@@ -1401,6 +1421,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   font-size: 28px;
 }
 
+/*Bannière sur les pages des restaurants */
 header, .localisation div, .fonctionnement__block, .fonctionnement__block .circle, .loading, .menu-container {
   display: flex;
   justify-content: center;
@@ -1459,6 +1480,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   -webkit-animation-delay: 2.5s;
 }
 
+/*Caractérestique des boutons violet */
 .btn, .description .btn {
   border-style: hidden;
   background: linear-gradient(0deg, rgb(147, 89, 220) 0%, rgb(255, 121, 218) 100%);
@@ -1475,6 +1497,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   box-shadow: 0px 6px 50px -12px rgba(0, 0, 0, 0.8);
 }
 
+/*Partie commande page restaurants*/
 .commander {
   background-color: #f1eeee;
   padding-bottom: 60px;
@@ -1485,6 +1508,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
   padding-right: 45px;
 }
 
+/*Responsive tablette des pages des restaurants*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .img-resto {
     height: 350px;
@@ -1555,6 +1579,7 @@ header, .localisation div, .fonctionnement__block, .fonctionnement__block .circl
     font-size: 25px;
   }
 }
+/*responsive desktop index/pages restaurants */
 @media screen and (min-width: 992px) {
   .description br {
     display: none;

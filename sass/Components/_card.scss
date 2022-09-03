@@ -2,6 +2,8 @@
 @import '../Utils/placeholders';
 @import '../Utils/mixins';
 
+/* Mise en forme des restaurants sur la page index */
+
 %card-style{
     position: relative;
     background-color: white;
@@ -24,7 +26,6 @@
 
         .fa-heart{
             font-size: 28px;
-            background-color: $background-gradient;
         }
     }
 

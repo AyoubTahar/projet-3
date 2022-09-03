@@ -3,6 +3,8 @@
 @import '../Utils/placeholders';
 @import '../Components/button';
 
+/*Partie commande page restaurants*/
+
 .commander{
     @extend %flex-column;
     background-color: $background-dark;
@@ -14,3 +16,4 @@
     padding-left: 45px;
     padding-right: 45px;
 }
+

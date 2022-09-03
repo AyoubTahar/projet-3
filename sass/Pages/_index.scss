@@ -29,11 +29,12 @@ body{
 }
 
 
-/* Pour cacher la fléche du header sur cette page*/
+/* Pour cacher la flèche du header sur l'index*/
 .hide{
   display: none;
 }
 
+/*Responsive tablette de l'index*/
 @media screen and (min-width: 768px) and (max-width:992px){
 
   .localisation{
