@@ -670,7 +670,7 @@ ul li i {
   display: flex;
   width: 100%;
   max-width: 1440px;
-  height: 1630px;
+  height: 100vh;
   position: absolute;
   background-color: white;
   z-index: -1;
