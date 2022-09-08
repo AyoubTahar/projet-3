@@ -18,5 +18,6 @@
     &:hover{
         filter: $brighter;
         box-shadow: $shadow-strong;
+        cursor: pointer;
     }
 }

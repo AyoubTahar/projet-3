@@ -36,6 +36,7 @@
     &:hover{
         background-color: $background-lighten;
         box-shadow: $shadow-strong;
+        cursor: pointer;
 
         i{
             color: $primaire;
