@@ -738,6 +738,9 @@ header i {
   margin-left: 10px;
   font-size: 25px;
 }
+header a {
+  color: black;
+}
 header a:visited {
   color: black;
 }
